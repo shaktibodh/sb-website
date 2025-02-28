@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Courses - Shakti Bodh</title>
+  <meta name="description" content="Explore our specialized courses for IIT-JEE and NEET preparation">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+  <header class="sticky-header">
+    <div class="container header-container">
+      <a href="index.html" class="logo">
+        <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-02-27%20at%2014.23.20-JAA3E7j4BxTUdMLbpw6Lcll4T9lpIB.jpeg" alt="Shakti Bodh Logo" width="180" height="60">
+      </a>
+
+      <nav class="main-nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About Us</a>
+        <a href="courses.html" class="nav-link active">Courses</a>
+        <a href="features.html" class="nav-link">Features</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+        <a href="#" class="btn btn-secondary">Enroll Now</a>
+      </nav>
+
+      <button class="mobile-menu-btn" id="mobileMenuBtn">
+        <i data-lucide="menu"></i>
+      </button>
+    </div>
+
+    <!-- Mobile menu -->
+    <div class="mobile-menu" id="mobileMenu">
+      <nav class="mobile-nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About Us</a>
+        <a href="courses.html" class="nav-link active">Courses</a>
+        <a href="features.html" class="nav-link">Features</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+        <a href="#" class="btn btn-secondary btn-full">Enroll Now</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Page Header -->
+    <section class="page-header">
+      <div class="container">
+        <h1 class="page-title">Our Courses</h1>
+        <nav class="breadcrumb">
+          <a href="index.html">Home</a>
+          <span class="breadcrumb-separator">/</span>
+          <span>Courses</span>
+        </nav>
+      </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section class="section bg-light">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">
+            <span class="text-primary">Our</span> <span class="text-secondary">Courses</span>
+          </h2>
+          <p class="section-description">Specialized programs designed to help students excel in competitive examinations</p>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="courses-grid">
+          <div id="iit-jee" class="course-card popular">
+            <div class="popular-tag">Most Popular</div>
+            <img src="images/course-iit-jee.jpg" alt="IIT-JEE Preparation" class="course-image">
+            <div class="course-content">
+              <h3 class="course-title">IIT-JEE Preparation</h3>
+              <p class="course-description">Comprehensive preparation for JEE Main & Advanced with focus on Physics, Chemistry & Mathematics</p>
+              <ul class="course-features">
+                <li>
+                  <i data-lucide="check-circle" class="icon-primary"></i>
+                  <span>Regular mock tests and assessments</span>
+                </li>
+                <li>
+                  <i data-lucide="check-circle" class="icon-primary"></i>
+                  <span>Doubt clearing sessions</span>
+                </li>
+                <li>
+                  <i data-lucide="check-circle" class="icon-primary"></i>
+                  <span>Study material and practice papers</span>
+                </li>
+                <li>
+                  <i data-lucide="check-circle" class="icon-primary"></i>
+                  <span>Performance tracking</span>
+                </li>
+              </ul>
+              <a href="#" class="btn btn-primary btn-full">
+                Enroll Now
+                <i data-lucide="arrow-right" class="icon-sm"></i>
+              </a>
+            </div>
+          </div>
+
+          <div id="neet" class="course-card">
+            <img src="images/course-neet.jpg" alt="NEET Preparation" class="course-image">
+            <div class="course-content">
+              <h3 class="course-title">NEET Preparation</h3>
+              <p class="course-description">Complete preparation for NEET with in-depth coverage of Biology, Physics & Chemistry</p>
+              <ul class="course-features">
+                <li>
+                  <i data-lucide="check-circle" class="icon-primary"></i>
+                  <span>Biology practical sessions</span>
+                </li>
+                <li>
+                  <i data-lucide="check-circle" class="icon-primary"></i>
+                  <span>Regular test series</span>
+                </li>
+                <li>
+                  <i data-lucide="check-circle" class="icon-primary"></i>
+                  <span>Conceptual clarity focus</span>
+                </li>
+                <li>
+                  <i data-lucide="check-circle" class="icon-primary"></i>
+                  <span>Previous year paper analysis</span>
+                </li>
+              </ul>
+              <a href="#" class="btn btn-primary btn-full">
+                Enroll Now
+                <i data-lucide="arrow-right" class="icon-sm"></i>
+              </a>
+            </div>
+          </div>
+
+          <div id="foundation" class="course-card">
+            <img src="images/course-foundation.jpg" alt="Foundation Course" class="course-image">
+            <div class="course-content">
+              <h3 class="course-title">Foundation Course</h3>
+              <p class="course-description">Building strong fundamentals for students in classes 9th and 10th for future competitive exams</p>
+              <ul class="course-features">
+                <li>
+                  <i data-lucide="check-circle" class="icon-primary"></i>
+                  <span>Basic to advanced concepts</span>
+                </li>
+                <li>
+                  <i data-lucide="check-circle" class="icon-primary"></i>
+                  <span>School curriculum integration</span>
+                </li>
+                <li>
+                  <i data-lucide="check-circle" class="icon-primary"></i>
+                  <span>Analytical thinking development</span>
+                </li>
+                <li>
+                  <i data-lucide="check-circle" class="icon-primary"></i>
+                  <span>Regular assessments</span>
+                </li>
+              </ul>
+              <a href="#" class="btn btn-primary btn-full">
+                Enroll Now
+                <i data-lucide="arrow-right" class="icon-sm"></i>
+              </a>
+            </div>
+          </div>
+
+          <div id="crash" class="course-card">
+            <img src="images/course-crash.jpg" alt="Crash Course" class="course-image">
+            <div class="course-content">
+              <h3 class="course-title">Crash Course</h3>
+              <p class="course-description">Intensive short-term courses for last-minute preparation before competitive exams</p>
+              <ul class="course-features">
+                <li>
+                  <i data-lucide="check-circle" class="icon-primary"></i>
+                  <span>Focused revision of key concepts</span>
+                </li>
+                <li>
+                  <i data-lucide="check-circle" class="icon-primary"></i>
+                  <span>Problem-solving techniques</span>
+                </li>
+                <li>
+                  <i data-lucide="check-circle" class="icon-primary"></i>
+                  <span>Time management strategies</span>
+                </li>
+                <li>
+                  <i data-lucide="check-circle" class="icon-primary"></i>
+                  <span>Mock tests with analysis</span>
+                </li>
+              </ul>
+              <a href="#" class="btn btn-primary btn-full">
+                Enroll Now
+                <i data-lucide="arrow-right" class="icon-sm"></i>
+              </a>
+            </div>
+          </div>
+
+          <div id="test-series" class="course-card">
+            <img src="images/course-test.jpg" alt="Test Series" class="course-image">
+            <div class="course-content">
+              <h3 class="course-title">Test Series</h3>
+              <p class="course-description">Comprehensive test series designed to simulate actual exam conditions</p>
+              <ul class="course-features">
+                <li>
+                  <i data-lucide="check-circle" class="icon-primary"></i>
+                  <span>Chapter-wise tests</span>
+                </li>
+                <li>
+                  <i data-lucide="check-circle" class="icon-primary"></i>
+                  <span>Full-length mock exams</span>
+                </li>
+                <li>
+                  <i data-lucide="check-circle" class="icon-primary"></i>
+                  <span>Detailed performance analysis</span>
+                </li>
+                <li>
+                  <i data-lucide="check-circle" class="icon-primary"></i>
+                  <span>Personalized improvement plan</span>
+                </li>
+              </ul>
+              <a href="#" class="btn btn-primary btn-full">
+                Enroll Now
+                <i data-lucide="arrow-right" class="icon-sm"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Course Schedule -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Course Schedule</h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="schedule-table-container">
+          <table class="schedule-table">
+            <thead>
+              <tr>
+                <th>Course</th>
+                <th>Duration</th>
+                <th>Batch Size</th>
+                <th>Timings</th>
+                <th>Starting Date</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>IIT-JEE (2-Year Program)</td>
+                <td>2 Years</td>
+                <td>30 Students</td>
+                <td>9:00 AM - 3:00 PM</td>
+                <td>June 15, 2025</td>
+              </tr>
+              <tr>
+                <td>IIT-JEE (1-Year Program)</td>
+                <td>1 Year</td>
+                <td>30 Students</td>
+                <td>9:00 AM - 3:00 PM</td>
+                <td>April 10, 2025</td>
+              </tr>
+              <tr>
+                <td>NEET (2-Year Program)</td>
+                <td>2 Years</td>
+                <td>30 Students</td>
+                <td>9:00 AM - 3:00 PM</td>
+                <td>June 15, 2025</td>
+              </tr>
+              <tr>
+                <td>NEET (1-Year Program)</td>
+                <td>1 Year</td>
+                <td>30 Students</td>
+                <td>9:00 AM - 3:00 PM</td>
+                <td>April 10, 2025</td>
+              </tr>
+              <tr>
+                <td>Foundation Course</td>
+                <td>1 Year</td>
+                <td>35 Students</td>
+                <td>4:00 PM - 7:00 PM</td>
+                <td>April 5, 2025</td>
+              </tr>
+              <tr>
+                <td>Crash Course</td>
+                <td>3 Months</td>
+                <td>25 Students</td>
+                <td>8:00 AM - 2:00 PM</td>
+                <td>January 10, 2025</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- Enrollment Process -->
+    <section class="section bg-light">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">
+            <span class="text-primary">Enrollment</span> <span class="text-secondary">Process</span>
+          </h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="process-steps">
+          <div class="process-step">
+            <div class="step-number">1</div>
+            <div class="step-content">
+              <h3 class="step-title">Fill Application Form</h3>
+              <p class="step-description">Complete the online application form or visit our center to fill a physical form</p>
+            </div>
+          </div>
+          
+          <div class="process-step">
+            <div class="step-number">2</div>
+            <div class="step-content">
+              <h3 class="step-title">Entrance Test</h3>
+              <p class="step-description">Take our entrance test to help us understand your current knowledge level</p>
+            </div>
+          </div>
+          
+          <div class="process-step">
+            <div class="step-number">3</div>
+            <div class="step-content">
+              <h3 class="step-title">Counseling Session</h3>
+              <p class="step-description">Attend a counseling session with our academic team to discuss your goals</p>
+            </div>
+          </div>
+          
+          <div class="process-step">
+            <div class="step-number">4</div>
+            <div class="step-content">
+              <h3 class="step-title">Fee Payment</h3>
+              <p class="step-description">Complete the fee payment process through various available payment options</p>
+            </div>
+          </div>
+          
+          <div class="process-step">
+            <div class="step-number">5</div>
+            <div class="step-content">
+              <h3 class="step-title">Confirmation</h3>
+              <p class="step-description">Receive your enrollment confirmation and welcome kit</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center mt-40">
+          <a href="contact.html" class="btn btn-primary">Contact for Enrollment</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-about">
+          <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-02-27%20at%2014.23.20-JAA3E7j4BxTUdMLbpw6Lcll4T9lpIB.jpeg" alt="Shakti Bodh Logo" class="footer-logo">
+          <p>Empowering students to excel in competitive exams like IIT-JEE and NEET through quality education in their own locality.</p>
+          <div class="social-links">
+            <a href="#" class="social-link"><i data-lucide="facebook"></i></a>
+            <a href="#" class="social-link"><i data-lucide="instagram"></i></a>
+            <a href="#" class="social-link"><i data-lucide="twitter"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="features.html">Features</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <h3>Courses</h3>
+          <ul>
+            <li><a href="courses.html#iit-jee">IIT-JEE Preparation</a></li>
+            <li><a href="courses.html#neet">NEET Preparation</a></li>
+            <li><a href="courses.html#foundation">Foundation Courses</a></li>
+            <li><a href="courses.html#crash">Crash Courses</a></li>
+            <li><a href="courses.html#test-series">Test Series</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-contact">
+          <h3>Contact Us</h3>
+          <ul>
+            <li>
+              <i data-lucide="map-pin" class="icon-sm"></i>
+              <span>123 Education Street, Your City, State, India</span>
+            </li>
+            <li>
+              <i data-lucide="phone" class="icon-sm"></i>
+              <span>+91 98765 43210</span>
+            </li>
+            <li>
+              <i data-lucide="mail" class="icon-sm"></i>
+              <span>info@shaktibodh.com</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; <span id="currentYear"></span> Shakti Bodh. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+  <script>
+    // Initialize Lucide icons
+    lucide.createIcons();
+    
+    // Set current year in footer
+    document.getElementById('currentYear').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
